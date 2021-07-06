@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="header">
+		<h1 id="pageTitle">Welcome To Web Library!</h1>
+		<button id="addBook">Add a Book</button>
+	</div>
+	
+	
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+
+	  <!-- Modal content -->
+	  <div class="modal-content">
+		 <span class="close">&times;</span>
+		 <form>
+			<h1>Add a New book</h1>
+			<label for="title">Title:</label><br>
+			<input type="text" id="title" name="title"><br>
+			<label for="author">Author:</label><br>
+			<input type="text" id="author" name="author"><br>
+			<label for="pages">Pages:</label><br>
+			<input type="text" id="pages" name="pages"><br>
+			<label for="lang">Language:</label><br>
+			<input type="text" id="lang" name="lang"><br>
+			<label for="read">Mark as read:</label>
+			<input type="checkbox" id="read" name="read"><br>
+			<button id="add">Add</button>
+			<button id="cancel">Cancel</button>
+			</form>
+	  </div>
+
+	</div>
+	
+	<div id="bookshelf">
+		
+	</div>
+	
+	
+	
+	<script src="script.js"></script>
+</body>
